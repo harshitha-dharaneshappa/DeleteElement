@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    
+}
+
+section>article{
+    display: flex;
+    align-items: center;
+}
+
+section>article>#logo{
+    height: 80px;
+    width: 10%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+section>article>.Menu{
+    height: 80px;
+    width: 35%;
+}
+
+
+section>article>.Menu>.categories>ol{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+section>article>.Menu>.categories>ol>li{
+    padding-top: 30px;
+    font-weight: bolder;
+    color: #282c3f;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3;
+    
+}
+
+section>article>.Menu>.categories>ol>li:hover{
+    cursor: pointer;
+}
+
+section>article>#searchblock{
+    width: 40%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+section>article>#searchblock>#searchbar{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    background: #f5f5f6;
+    color: #696e79;
+    border-radius: 5px;
+    align-items: center;
+}
+
+section>article>#searchblock>#searchbar>#searchicon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section>article>#searchblock>#searchbar>#input{
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: #f5f5f6;
+    border-radius: 5px;
+
+}
+
+
+section>article>#user{
+    height: 80px;
+    width: 15%;
+    
+}
+
+section>article>#user>ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    font-weight: bolder;
+    justify-content: space-around;
+}
+
+section>article>#user>ol>li:hover{
+    cursor: pointer;
+}
+
+section>article>#user>#dropdownp{
+    width: 200px;
+    right: 30px;
+    font-size: 15px;
+    margin-top: 16px;
+    box-shadow: 0px 1px 5px rgb(135, 134, 134);
+    padding-bottom: 10px;
+    position: absolute;
+    background-color: white;
+    right: 20px;
+   
+}
+
+section>article>#user>#dropdownp>#Welcome{
+    height:80px;
+    width: 100%;
+    border-bottom: 0px  solid  rgb(135, 134, 134);
+    padding: 10px;
+    
+}
+section>article>#user>#dropdownp>#Welcome>#login{
+    height: 30px;
+    width: 150px;
+    color: rgb(219, 9, 9);
+    border-color: antiquewhite;
+    background-color: white;
+    border-radius: 3px;
+
+}
+section>article>#user>#dropdownp>#Welcome>button:hover{
+    cursor: pointer;
+}
+
+section>article>#user>#profile{
+    height: 100%;
+    border-bottom: 5px  2px solid  maroon;
+    position: absolute;
+}
+section>article>#user>#dropdownp>#a
+{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px  solid  rgb(135, 134, 134);
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+section>article>#user>#dropdownp>#a>ol{
+    list-style: none;
+    padding-top: 12px;
+}
+section>article>#user>#dropdownp>#a>ol>li:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+section>article>#user>#dropdownp>#b>ol>li:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    }
+
+section>article>#user>#dropdownp>#b{
+    height: 100px;
+    width: 100%;
+    
+    padding: 10px;
+    
+}
+
+section>article>#user>#dropdownp>#b>ol{
+    list-style: none;
+    }
+
+#body{
+    height: 100vh;
+    width: 100%;
+    
+}
+#body>#row1{
+    display: flex;
+    justify-content: space-evenly;/*x-axis*/
+    align-items:center;/*y-axis*/
+    margin-top: 60px;
+}
+
+#body>#row1>.a{
+    height: 350px;
+    width: 280px;
+}
+
+#body>#row1>#img1{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19050226/2022/10/28/3e208376-b98d-4eaa-8d00-68c9badadffa1666951667421-Anouk-Women-Dresses-7821666951666882-1.jpg");
+}
+#body>#row1>#img2{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16200880/2021/11/22/533f0eda-8494-4e04-bacb-946de1f818571637589460605TokyoTalkiesGreenFloralDress1.jpg");
+}
+#body>#row1>#img3{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14399812/2021/6/11/61ac3eaa-c553-4230-9458-28aa7bd088301623391467623-Anouk-Women-Kurta-Sets-961623391466905-11.jpg");
+}
+#body>#row1>#img4{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22120556/2023/2/25/31818595-3bda-4e8b-a93b-6cfc566126541677314970376KhushalKwomenEmbroideryKurtaandpalazzowithdupattaset1.jpg");
+}
+
+#body>#row2{
+    display: flex;
+    justify-content: space-evenly;/*x-axis*/
+    align-items: center;/*y-axis*/
+}
+
+#body>#row2>.a{
+    height: 350px;
+    width: 280px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#body>#row2>#img5{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10085961/2019/6/18/dac5cbe2-f254-45a9-a6d0-addbc327237a1560853151131-Tokyo-Talkies-Women-Maroon-Maxi-Dress-1251560853149114-1.jpg");
+}
+#body>#row2>#img6{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2299060/2022/11/22/a84c7bbf-b121-4a67-a65f-5a14ae1baf5f1669112698422TokyoTalkiesBlackFloralPrintFlaredMaxiDresswithaBelt1.jpg");
+}
+#body>#row2>#img7{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15555462/2021/9/21/53f67584-824c-42f9-9324-89e982d5511d1632234065294InWeaveMaroonA-LineDress1.jpg");
+}
+#body>#row2>#img8{
+    cursor: pointer;
+    background-image: url("https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2242503/2018/7/30/00fa54ff-cc59-4d9e-b618-34766946f2c81532942294504-Tokyo-Talkies-Women-Navy-Printed-Shirt-Dress-5291532942294350-1.jpg");
+}
+
+#body>#row1>.a>.buy{
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    border-color: rgb(212, 206, 206);
+    background-color: white;
+    border-width: 1px;
+    margin-top: 310px;
+}
+
+#body>#row2>.a>.buy{
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    border-color: rgb(212, 206, 206);
+    background-color: white;
+    border-width: 1px;
+    margin-top: 310px;
+}
+
